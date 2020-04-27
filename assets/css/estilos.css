@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.barra-menu{
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    position: fixed;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    margin-top: 5px;
+    width: 100px;
+}
+
+.items{
+    position: absolute;
+    right: 50px;
+    bottom: 3px;
+}
+
+.barra-menu ul{
+    list-style: none;
+}
+
+.barra-menu ul li {
+	display:inline-block;
+	position: relative;
+}
+
+.barra-menu ul li a{
+	display: block;
+    padding: 0 30px;
+    color: #FFFFFF;
+}
+
+.barra-menu ul li a:hover{
+    color: #6600FF;
+}
+
+.barra-menu ul li a:hover{
+    text-decoration: none;
+}
+
+.barra-menu ul li:hover .desplegable {
+	display:block;
+}
+ 
+.barra-menu ul li .desplegable {
+    display: none;
+    border-radius: 2px;
+	background:#ffffff;
+	position: absolute;
+    width: 120%;
+    padding: 0;
+    height: 80px;
+    z-index:1000;
+}
+ 
+.barra-menu ul li .desplegable li {
+	display:block;
+	overflow: hidden;
+    padding: 10px;
+}
+ 
+.barra-menu ul li .desplegable li a {
+    display: block;
+    padding: 0;
+    color: #6600FF;
+}
+
+.barra-menu ul li .desplegable li a:hover{
+    color: #303F9F;
+}
+
+.encabezado{
+    width: 100%;
+    height: 650px;
+    background-image: url(../img/fondo-2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    color: #FFFFFF;
+}
+
+.encabezado .textos{
+    margin-top: 165px;
+    margin-left: 75px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.encabezado .titulo{
+    font-size: 60px;
+}
+
+.encabezado .subtitulo{
+    width: 700px;
+    margin-left: 10px;
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.boton{
+    display: inline-block;
+    padding: 8px 12px;
+    width: auto;
+    border: 1px solid #FFFFFF;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 16px;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.boton:hover{
+    text-decoration: none;
+    color: #6600FF;
+    background: #ffffff;
+}
+
+.sesgoabajo{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 35vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent #FFF transparent;
+}
+
+.sesgoarriba{
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-width: 35vh 100vw 0 0;
+    border-style: solid;
+    border-color: #FFF transparent transparent transparent;
+}
+
+
+footer{
+    background: #6600FF;
+    padding: 20px;
+    width: 100%;
+    height: 20%;
+    color: #FFFFFF;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.correos{
+    position: relative; 
+    margin-top: 25px;
+    bottom: 10%;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.caja-redes{
+    position: relative;
+    text-align: center;
+}
+
+.redes{
+    font-size: 30px;
+    padding-right: 40px;
+    color: #FFFFFF;
+}
