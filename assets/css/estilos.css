@@ -162,7 +162,6 @@
     margin-bottom: 30px;
     font-weight: 500;
     font-family: 'Fredoka One', cursive;
-
 }
 
 .parrafo{
@@ -219,6 +218,38 @@
 
 .miembros{
     background: #6600FF;
+}
+
+.quienes-somos{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #FFF;
+    font-size: 40px;
+}
+
+.slogan{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #FFF;
+}
+
+.cards{
+    width: 90%;
+    height: 460px;
+    display: flex;
+    position: relative;
+    left: 100px;
+    margin-top: 40px;
+}
+
+.card{
+    display: block;
+    margin: 10px 40px;
+    width: 600px;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 
