@@ -58,7 +58,7 @@
 	position: absolute;
     width: 120%;
     padding: 0;
-    height: 80px;
+    height: 87px;
     z-index:1000;
 }
  
@@ -66,6 +66,11 @@
 	display:block;
 	overflow: hidden;
     padding: 10px;
+}
+
+.barra-menu ul li .desplegable li:hover{
+    background: #303F9F;
+    color: #FFF;
 }
  
 .barra-menu ul li .desplegable li a {
@@ -75,7 +80,7 @@
 }
 
 .barra-menu ul li .desplegable li a:hover{
-    color: #303F9F;
+    color: #FFF ;
 }
 
 .encabezado{
@@ -113,8 +118,8 @@
     padding: 8px 12px;
     width: auto;
     border: 1px solid #FFFFFF;
-    text-decoration: none;
     color: #FFFFFF;
+    background: transparent;
     font-size: 18px;
     text-align: center;
     border-radius: 16px;
@@ -144,8 +149,7 @@
     left: 0;
     border-width: 35vh 100vw 0 0;
     border-style: solid;
-    border-color: #FFF transparent transparent transparent;
-    
+    border-color: #FFF transparent transparent transparent;  
 }
 
 .contenedor{
@@ -198,7 +202,7 @@
 
 .contactanos{
     width: 100%;
-    height: 500px;
+    height: 700px;
     overflow: hidden;
     display: flex;
     position: relative;
@@ -218,6 +222,7 @@
 
 .miembros{
     background: #6600FF;
+    position: relative;
 }
 
 .quienes-somos{
@@ -236,22 +241,47 @@
 
 .cards{
     width: 90%;
-    height: 460px;
+    height: 470px;
     display: flex;
     position: relative;
     left: 100px;
     margin-top: 40px;
 }
 
-.card{
+.card-miembros{
     display: block;
     margin: 10px 40px;
     width: 600px;
     padding: 20px;
+    border-radius: 25px;
+    background: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
-
 }
 
+.card-miembros img{
+    margin-bottom: 15px;
+}
+
+.card-miembros h4{
+    /* font-weight: bold; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-miembros h5{
+    font-family: 'Fredoka One', cursive;
+}
+
+.titulo-contacto{
+    font-family: 'Fredoka One', cursive;
+}
+
+.subtitulo-p{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.formulario{
+    font-family: 'Montserrat', sans-serif;
+}
 
 footer{
     background: #6600FF;
