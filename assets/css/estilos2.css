@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 /* Menu */
 
 .barra-menu{
@@ -18,7 +22,8 @@
 }
 
 .logo{
-    margin-top: 5px;
+    position: relative;
+    bottom: 1%;
     width: 100px;
 }
 
@@ -40,7 +45,7 @@
 .barra-menu ul li a{
 	display: block;
     padding: 0 30px;
-    color: #FFFFFF;
+    color: #6600FF;
 }
 
 .barra-menu ul li a:hover{
@@ -87,7 +92,7 @@
 .encabezado2{
     width: 100%;
     height: 380px;
-    background-image: url(../img/fondo-7.jpg);
+    background-image: url(../img/fondom.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -101,7 +106,7 @@
     margin-left: 800px;
 }
 
-.encabezado2 .subtitulo{
+.encabezado2 .subtitulo-encabezado{
     width: 700px;
     margin-left: -98px;
     margin-top: 12px;
@@ -115,6 +120,25 @@
 
 
 /* Contenido */
+
+.row{
+    background: #6600FF;
+    margin-bottom: 1%;
+}
+
+.titulo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.subtitulo {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+    text-align: justify;
+    width: 90%;
+    margin-left: 10%;
+}
 
 .imgmockups{
     border: black 2px solid ;

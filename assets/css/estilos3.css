@@ -15,11 +15,12 @@
     padding: 10px 20px;
     position: fixed;
     font-family: 'Poppins', sans-serif;
-    background: #ffffff;
 }
 
 .logo{
     width: 100px;
+    position: relative;
+    bottom: 30%;
 }
 
 .items{
@@ -85,16 +86,16 @@
 /* Contenido */
 
 .imagen{
-    width: 1600px;
+    width: 90%;
     margin-top: 5px;
-    margin-left: 140px;
+    margin-left: 5%;
     margin-bottom: 50px;
     border: black 2px solid;
 }
 
 .titulo{
     padding-top: 90px;
-    padding-left: 780px;
+    margin-left: 6%;
     font-size: 40px;
     font-family: 'Poppins', sans-serif;
 }
